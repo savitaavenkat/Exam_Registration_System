@@ -1,5 +1,8 @@
 # Exam_Registration_System
-A simple exam registration system designed and implemented using JAVA, MySQL, JSP, HTML, CSS
+Description:
+------------
+A simple exam registration system designed and implemented using JAVA, MySQL, JSP, HTML, CSS.
+
 Author:
 -------
 Savitaa Venkateswaran
