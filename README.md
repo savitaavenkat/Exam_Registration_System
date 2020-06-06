@@ -1,9 +1,11 @@
 # Exam_Registration_System
 A simple exam registration system designed and implemented using JAVA, MySQL, JSP, HTML, CSS
-Author: Savitaa Venkateswaran
+Author:
+-------
+Savitaa Venkateswaran
 
 Motivation:
-----------
+-----------
 - A simple application developed during my first year of bachelors in 2013 as a side project to understand the full working of a system, starting from a backend database, to a web server to serve the requests back and forth, to a simple web front end to display the results of any operation performed through the system to the user in a meaningful way.
 
 Files & Folders:
