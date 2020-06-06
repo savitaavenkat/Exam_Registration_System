@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Examination Registration</title>
+  <script language="javascript">
+    function validation()
+    {
+      if(form.reg_no.value.length==0)
+      {
+        alert("fill the Register number");
+        form.reg_no.focus();
+        return false;
+      }
+          return true;
+   }
+   </script>
+   <style>
+   body {
+	color: ghostwhite;
+	   }
+	   span {
+	   color: red;
+	   }
+   </style>
+  </head>
+  <body bgcolor="purple">
+  <center><h1>Exam Registration Form</h1></center>
+ 
+    <form action="exam.jsp" method="post" id="form" name="form" onSubmit="return validation()">
+    <div align=left>
+      <input type="hidden" value="list" name="action">
+      <table>
+         <tr>
+     	   <td><h3>Register Number:<span id=1>*</span></h3></td>
+	   <td><input type="text" name="reg_no" size="30" required></td>
+         </tr>
+	<tr>
+     	   <td><h3>First Name:<span id=1>*</span></h3></td>
+	   <td><input type="text" name="name" size="30" required></td>
+         </tr>
+	 <tr>
+	 	<td><h3>Last Name:<span id=1>*</span></h3></td>
+	 	<td><input type="text" name="lname" size="30" required></td>
+	 	</tr>
+	 <tr>
+     	   <td><h3>Year:<span id=1>*</span></h3></td>
+           <td><input type="number" name="year" size="30"></td>
+         </tr>
+         <tr>
+         <td><h3>Semester:<span id=1>*</span></h3></td>
+         <td><input type="text" name="semester" size="30"></td>
+        </tr>
+        <tr>
+        <td><h3>Branch:<span id=1>*</span></h3></td>
+        <td><input type="text" name="br" size="30"></td>
+        </tr>
+        </table>
+       </div>
+       <hr /> 
+   <!-- <div align="left"><b>1. GlassFish is OpenSource</b><br />
+	<input type="radio" name="q1" value="true">true
+        <input type="radio" name="q1" value="false">false<br /><br />
+
+	
+	<b>2. GET is more appropriate than POST for search engines</b><br />
+	<input type="radio" name="q2" value="true">true
+        <input type="radio" name="q2" value="false">false<br /><br />
+
+
+        <b>3. CodeIgniter is a java based framework</b><br />
+	<input type="radio" name="q3" value="true">true
+        <input type="radio" name="q3" value="false">false<br /><br />
+
+	<b>4. REST is Representation of Secure Transaction</b><br />
+	<input type="radio" name="q4" value="true">true
+        <input type="radio" name="q4" value="false">false<br /><br />
+
+	<b>5. JSP is html code inside java</b><br />
+	<input type="radio" name="q5" value="true">true
+        <input type="radio" name="q5" value="false">false<br />
+    </div>-->
+    <hr align="left" />
+    <div align="center">
+       <input type="submit" value="submit">
+       <input type="reset" value="reset">
+       <br /><br />
+     </div>
+
+  </form>
+  </body>
+</html>
